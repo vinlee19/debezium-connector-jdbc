@@ -38,7 +38,7 @@ import io.debezium.util.Strings;
  */
 public class JdbcSinkConnectorConfig {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(JdbcSinkConnectorTask.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(JdbcSinkConnectorConfig.class);
 
     private static final String HIBERNATE_PREFIX = "hibernate.";
     private static final String DEFAULT_DATABASE_TIME_ZONE = "UTC";
